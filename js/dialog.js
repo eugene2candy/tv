@@ -223,7 +223,7 @@ this.showWindow();
 return;
 }
 var arr=[];
-arr.push("为正常播放，请将Firefox或者Google Chrome搭配去广告插件adblock使用、因为电视信号源可能产生广告。<br>网站所有者：SonJasper，欢迎访问我的博客：http://sonjasper.com/blog/ <\/div><a href="url">Link text</a>");
+arr.push("为正常播放，请将Firefox或者Google Chrome搭配去广告插件adblock使用、因为电视信号源可能产生广告。<br>网站所有者：SonJasper，欢迎访问我的博客：http://sonjasper.com/blog/ <a href="url">Link text</a> <\/div>");
 arr.push("<table style='-moz-user-select:none;' oncontextmenu='stopEvent(event);' onselectstart='stopEvent(event);' border='0' cellpadding='0' cellspacing='0' width='"+(this.Width+26)+"'>");
 arr.push("  <tr style='cursor:move;' id='_draghandle_"+this.ID+"'>");
 arr.push("    <td width='13' height='33' style=\"background-image:url("+IMGFOLDERPATH+"dialog_lt.png) !important;background-image: none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='"+IMGFOLDERPATH+"dialog_lt.png', sizingMethod='crop');\"><div style='width:13px;'></div></td>");
